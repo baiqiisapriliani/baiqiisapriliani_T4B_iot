@@ -10,9 +10,12 @@
             "includePath": [
                 "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/include",
                 "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/src",
+<<<<<<< HEAD
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+=======
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
                 "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/.pio/libdeps/esp32doit-devkit-v1/DHT sensor library",
                 "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/.pio/libdeps/esp32doit-devkit-v1/Adafruit Unified Sensor",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
@@ -222,6 +225,10 @@
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+<<<<<<< HEAD
+=======
+                "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
@@ -239,6 +246,11 @@
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+<<<<<<< HEAD
+=======
+                "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+                "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 ""
@@ -248,9 +260,12 @@
                 "path": [
                     "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/include",
                     "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/src",
+<<<<<<< HEAD
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+=======
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
                     "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/.pio/libdeps/esp32doit-devkit-v1/DHT sensor library",
                     "C:/Users/ASUS/OneDrive/Documents/PlatformIO/Projects/latihan2_baiq/.pio/libdeps/esp32doit-devkit-v1/Adafruit Unified Sensor",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
@@ -460,6 +475,10 @@
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
+<<<<<<< HEAD
+=======
+                    "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
@@ -477,6 +496,11 @@
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
+<<<<<<< HEAD
+=======
+                    "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
+                    "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     "C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     ""

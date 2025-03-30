@@ -132,6 +132,7 @@
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
+<<<<<<< HEAD
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
@@ -235,3 +236,6 @@
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/hal/include/hal/aes_types.h \
  C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/mbedtls/mbedtls/include/mbedtls/error.h \
  .pio/libdeps/esp32doit-devkit-v1/DHT\ sensor\ library/DHT.h
+=======
+ C:/Users/ASUS/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247

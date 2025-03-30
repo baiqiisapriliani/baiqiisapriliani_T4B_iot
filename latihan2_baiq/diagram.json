@@ -3,15 +3,50 @@
   "author": "Baiq Iis Apriliani",
   "editor": "wokwi",
   "parts": [
+<<<<<<< HEAD
     { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 9.6, "left": 235.24, "attrs": {} },
     { "type": "wokwi-dht22", "id": "dht1", "top": -18.9, "left": 90.6, "attrs": {} }
+=======
+<<<<<<< HEAD
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -9.6, "left": -129.56, "attrs": {} },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": -38.2, "left": 76.8, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 73.4,
+      "left": 67.2,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 169.2, "left": -5.8, "attrs": { "color": "red" } }
+=======
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -19.2, "left": -129.56, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": 11.1, "left": 43.9, "attrs": {} }
+>>>>>>> 22f2bab (Menyelesaiakn tugas simulasi bab 11)
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
     [ "esp:RX", "$serialMonitor:TX", "", [] ],
+<<<<<<< HEAD
     [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ],
     [ "dht1:SDA", "esp:27", "green", [ "v0" ] ],
     [ "dht1:VCC", "esp:3V3", "red", [ "v0" ] ]
+=======
+<<<<<<< HEAD
+    [ "relay1:VCC", "esp:3V3", "red", [ "h0" ] ],
+    [ "relay1:GND", "esp:GND.2", "black", [ "h0" ] ],
+    [ "relay1:IN", "esp:23", "green", [ "h-57.6", "v9.4" ] ],
+    [ "btn1:1.l", "esp:19", "green", [ "h0" ] ],
+    [ "btn1:2.l", "esp:GND.2", "green", [ "h-67.2", "v-86.2" ] ],
+    [ "led1:A", "esp:18", "green", [ "v-115.2" ] ],
+    [ "led1:C", "esp:GND.2", "green", [ "v-201.6", "h0.4" ] ]
+=======
+    [ "ultrasonic1:VCC", "esp:5V", "red", [ "v86.4", "h-249.6" ] ],
+    [ "ultrasonic1:TRIG", "esp:5", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "esp:18", "green", [ "v-19.2", "h-164" ] ],
+    [ "ultrasonic1:GND", "esp:GND.3", "black", [ "v0" ] ]
+>>>>>>> 22f2bab (Menyelesaiakn tugas simulasi bab 11)
+>>>>>>> 615cd1b2c129359fad37432e29569f5b3c407247
   ],
   "dependencies": {}
 }
