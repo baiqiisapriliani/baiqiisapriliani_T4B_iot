@@ -1,27 +1,35 @@
 #include <Arduino.h>
-// Define pin numbers
-const int ButtonPin = 19;  // GPIO19 connected to the pushbutton
-const int LedPin = 18;     // GPIO18 connected to the LED
-const int RelayPin = 23;   // GPIO23 connected to the relay module
+const int trigPin = 5;
+const int echoPin = 18;
+//define sound speed in cm/uS
+#define SOUND_SPEED 0.034
+#define CM_TO_INCH 0.393701
+long duration;
+float distanceCm;
+float distanceInch;
 void setup() {
-  // Set pin modes
-  pinMode(ButtonPin, INPUT_PULLUP);  // Set the button pin as an input with an internal pull-up resistor
-  pinMode(LedPin, OUTPUT);           // Set the LED pin as an output
-  pinMode(RelayPin, OUTPUT);         // Set the relay pin as an output
-  // Initialize the outputs to be OFF
-  digitalWrite(LedPin, LOW);
-  digitalWrite(RelayPin, LOW);
+ Serial.begin(115200); // Starts the serial communication
+ pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
+ pinMode(echoPin, INPUT); // Sets the echoPin as an Input
 }
 void loop() {
-  // Read the state of the button
-  int buttonState = digitalRead(ButtonPin);
-  // Check if the button is pressed
-  // Since the button is wired to pull the pin LOW when pressed, we check for LOW
-  if (buttonState == LOW) {
-    digitalWrite(LedPin, HIGH);     // Turn on the LED
-    digitalWrite(RelayPin, HIGH);   // Turn on the relay
-  } else {
-    digitalWrite(LedPin, LOW);      // Turn off the LED
-    digitalWrite(RelayPin, LOW);    // Turn off the relay
-  }
+ // Clears the trigPin
+ digitalWrite(trigPin, LOW);
+ delayMicroseconds(2);
+ // Sets the trigPin on HIGH state for 10 micro seconds
+ digitalWrite(trigPin, HIGH);
+ delayMicroseconds(10);
+ digitalWrite(trigPin, LOW);
+  // Reads the echoPin, returns the sound wave travel time in microseconds
+ duration = pulseIn(echoPin, HIGH);
+  // Calculate the distance
+ distanceCm = duration * SOUND_SPEED/2;
+  // Convert to inches
+ distanceInch = distanceCm * CM_TO_INCH;
+  // Prints the distance in the Serial Monitor
+ Serial.print("Distance (cm): ");
+ Serial.println(distanceCm);
+ // Serial.print("Distance (inch): ");
+ // Serial.println(distanceInch);
+  delay(1000);
 }
